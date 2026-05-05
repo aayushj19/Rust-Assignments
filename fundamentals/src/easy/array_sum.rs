@@ -8,5 +8,7 @@
 */
 
 pub fn array_sum(arr: &[i32; 5]) -> i32 {
+  return arr.iter().sum();
+
     todo!()
 }

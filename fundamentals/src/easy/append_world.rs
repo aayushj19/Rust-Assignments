@@ -8,6 +8,11 @@
     cargo test --test append_world_test
 */
 
+fn append(mut s:String) -> String{
+  s.push_str(" world");
+  s
+}
 pub fn append_world(mut s: String) -> String {
-    todo!()
+  return append(s);
+  todo!()
 }
